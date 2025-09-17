@@ -1,7 +1,9 @@
 {
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "porkchop": "2025-09-17 22:05:32 +0000"
+      "chicken": "2025-09-17 22:18:10 +0000",
+      "porkchop": "2025-09-17 22:05:32 +0000",
+      "mutton": "2025-09-17 22:19:48 +0000"
     },
     "done": false
   },
@@ -55,8 +57,12 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:river": "2025-09-17 22:17:17 +0000",
       "minecraft:forest": "2025-09-17 22:00:31 +0000",
-      "minecraft:jungle": "2025-09-17 22:00:19 +0000"
+      "minecraft:jungle": "2025-09-17 22:00:19 +0000",
+      "minecraft:windswept_savanna": "2025-09-17 22:18:27 +0000",
+      "minecraft:savanna": "2025-09-17 22:17:48 +0000",
+      "minecraft:plains": "2025-09-17 22:17:22 +0000"
     },
     "done": false
   },

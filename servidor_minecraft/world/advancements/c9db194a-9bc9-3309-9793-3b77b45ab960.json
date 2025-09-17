@@ -99,5 +99,11 @@
     },
     "done": true
   },
+  "kimetsunoyaiba:mission_no_2": {
+    "criteria": {
+      "mission_no_2_0": "2025-09-17 22:21:09 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

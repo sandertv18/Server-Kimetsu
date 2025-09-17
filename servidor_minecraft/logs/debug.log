@@ -4967,3 +4967,18 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [17Sep2025 22:11:10.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to 28.500000, 109.500000, -340.500000]
 [17Sep2025 22:12:04.029] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [17Sep2025 22:12:04.037] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[17Sep2025 22:17:04.005] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[17Sep2025 22:17:04.012] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[17Sep2025 22:19:15.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr fell from a high place
+[17Sep2025 22:19:19.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to 38.500000, 88.500000, 27.500000]
+[17Sep2025 22:19:31.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Uki: Teleported Uki to NeroMr]
+[17Sep2025 22:20:09.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Spectator Mode]
+[17Sep2025 22:20:15.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Survival Mode]
+[17Sep2025 22:20:19.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported Uki to NeroMr]
+[17Sep2025 22:21:09.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has made the advancement [Mission No.2]
+[17Sep2025 22:21:28.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Spectator Mode]
+[17Sep2025 22:21:29.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Survival Mode]
+[17Sep2025 22:21:30.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Creative Mode]
+[17Sep2025 22:21:44.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Survival Mode]
+[17Sep2025 22:22:04.006] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[17Sep2025 22:22:04.014] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

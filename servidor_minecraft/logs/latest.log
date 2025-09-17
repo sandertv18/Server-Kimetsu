@@ -509,3 +509,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [17Sep2025 21:08:53.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Kanoto]
 [17Sep2025 21:09:16.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
 [17Sep2025 21:10:30.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Kanoe]
+[17Sep2025 21:12:42.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Created new objective [Vida]]
+[17Sep2025 21:12:51.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set display slot list to show objective Vida]
+[17Sep2025 21:15:06.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr fell from a high place
+[17Sep2025 21:15:17.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to 25.500000, 88.500000, -62.500000]

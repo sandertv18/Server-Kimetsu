@@ -636,3 +636,41 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [17Sep2025 23:15:32.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Creative Mode]
 [17Sep2025 23:15:56.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Survival Mode]
 [17Sep2025 23:19:36.851] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved wrongly!
+[17Sep2025 23:23:10.933] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr lost connection: Disconnected
+[17Sep2025 23:23:10.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr left the game
+[17Sep2025 23:23:25.835] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Uki moved wrongly!
+[17Sep2025 23:24:56.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki died
+[17Sep2025 23:25:00.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Uki: Teleported Uki to 369.500000, 69.500000, -76.500000]
+[17Sep2025 23:25:08.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has completed the challenge [Strongest]
+[17Sep2025 23:25:08.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has completed the challenge [Hashira]
+[17Sep2025 23:25:10.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has made the advancement [Receive 40 Damage]
+[17Sep2025 23:25:12.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [The Flame Hashira]
+[17Sep2025 23:25:12.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has made the advancement [Receive 80 Damage]
+[17Sep2025 23:25:12.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has made the advancement [Receive 160 Damage]
+[17Sep2025 23:25:12.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has made the advancement [Receive 240 Damage]
+[17Sep2025 23:25:16.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [Receive 320 Damage]
+[17Sep2025 23:25:16.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has completed the challenge [[Skill] Demon Slayer Mark]
+[17Sep2025 23:25:58.145] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: NeroMr[/127.189.254.54:56723] logged in with entity id 53129 at (-79.79837264749052, 111.0, -990.9379735950831)
+[17Sep2025 23:25:58.150] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player NeroMr
+[17Sep2025 23:25:58.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr joined the game
+[17Sep2025 23:25:58.158] [Server thread/INFO] [Jade/]: Syncing config to NeroMr (c9db194a-9bc9-3309-9793-3b77b45ab960)
+[17Sep2025 23:26:47.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has made the advancement [Breathing 20]
+[17Sep2025 23:27:09.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has made the advancement [Breathing 40]
+[17Sep2025 23:27:17.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has made the advancement [Demon Killer 10]
+[17Sep2025 23:27:28.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has made the advancement [Breathing 60]
+[17Sep2025 23:27:47.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 23:27:52.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -100.500000, 112.500000, -969.500000]
+[17Sep2025 23:27:57.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki died
+[17Sep2025 23:28:01.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Uki: Teleported Uki to 411.500000, 56.500000, -64.500000]
+[17Sep2025 23:28:14.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has made the advancement [Breathing 80]
+[17Sep2025 23:28:37.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [Breathing 100]
+[17Sep2025 23:28:38.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has completed the challenge [[Skill] Transparent World (WIP)]
+[17Sep2025 23:28:38.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 23:28:43.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -113.500000, 115.500000, -968.500000]
+[17Sep2025 23:28:59.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Hashira Training Arc -Love-]
+[17Sep2025 23:29:38.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki died
+[17Sep2025 23:29:44.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Uki: Teleported Uki to 425.500000, 53.500000, -71.500000]
+[17Sep2025 23:31:25.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki died because of Gyokko
+[17Sep2025 23:31:29.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Uki: Teleported Uki to 395.500000, 63.500000, -73.500000]
+[17Sep2025 23:31:36.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Bloody Battle -Upper 2-]
+[17Sep2025 23:32:09.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to Uki]

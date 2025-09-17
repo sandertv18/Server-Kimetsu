@@ -1,7 +1,37 @@
 {
+  "kimetsunoyaiba:receive_40_damage": {
+    "criteria": {
+      "receive_40_damage_0": "2025-09-17 23:25:12 +0000"
+    },
+    "done": true
+  },
   "kimetsunoyaiba:kill_12_moons": {
     "criteria": {
       "kill_12_moons_0": "2025-09-17 22:46:07 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:breathing_60": {
+    "criteria": {
+      "breathing_60_0": "2025-09-17 23:27:28 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:the_flame_hashira": {
+    "criteria": {
+      "the_flame_hashira_0": "2025-09-17 23:25:12 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:strongest": {
+    "criteria": {
+      "strongest_0": "2025-09-17 23:25:08 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:demon_slayer_mark": {
+    "criteria": {
+      "demon_slayer_mark_0": "2025-09-17 23:25:16 +0000"
     },
     "done": true
   },
@@ -13,9 +43,39 @@
     },
     "done": false
   },
+  "kimetsunoyaiba:hashira": {
+    "criteria": {
+      "hashira_0": "2025-09-17 23:25:08 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:breathing_40": {
+    "criteria": {
+      "breathing_40_0": "2025-09-17 23:27:09 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:demon_kill_count_10": {
+    "criteria": {
+      "demon_kill_count_10_0": "2025-09-17 23:27:17 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:receive_60_damage": {
+    "criteria": {
+      "receive_60_damage_0": "2025-09-17 23:25:12 +0000"
+    },
+    "done": true
+  },
   "kimetsunoyaiba:hinoe": {
     "criteria": {
       "hinoe_0": "2025-09-17 22:48:22 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:breathing_20": {
+    "criteria": {
+      "breathing_20_0": "2025-09-17 23:26:47 +0000"
     },
     "done": true
   },
@@ -73,6 +133,12 @@
     },
     "done": true
   },
+  "kimetsunoyaiba:breathing_100": {
+    "criteria": {
+      "breathing_100_0": "2025-09-17 23:28:37 +0000"
+    },
+    "done": true
+  },
   "kimetsunoyaiba:tsuchinoto": {
     "criteria": {
       "tsuchinoto_0": "2025-09-17 22:09:32 +0000"
@@ -91,6 +157,18 @@
     },
     "done": true
   },
+  "kimetsunoyaiba:receive_100_damage": {
+    "criteria": {
+      "receive_100_damage_0": "2025-09-17 23:25:16 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:receive_20_damage": {
+    "criteria": {
+      "receive_20_damage_0": "2025-09-17 23:25:10 +0000"
+    },
+    "done": true
+  },
   "kimetsunoyaiba:demon_slayer_corps": {
     "criteria": {
       "demon_slayer_corps_0": "2025-09-17 21:42:53 +0000"
@@ -105,6 +183,7 @@
       "minecraft:desert": "2025-09-17 23:21:16 +0000",
       "minecraft:jungle": "2025-09-17 22:00:19 +0000",
       "minecraft:windswept_savanna": "2025-09-17 22:18:27 +0000",
+      "minecraft:warm_ocean": "2025-09-17 23:26:02 +0000",
       "minecraft:savanna": "2025-09-17 22:17:48 +0000",
       "minecraft:plains": "2025-09-17 22:17:22 +0000"
     },
@@ -140,9 +219,27 @@
     },
     "done": true
   },
+  "kimetsunoyaiba:breathing_80": {
+    "criteria": {
+      "breathing_80_0": "2025-09-17 23:28:14 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:transparent_world": {
+    "criteria": {
+      "transparent_world_0": "2025-09-17 23:28:38 +0000"
+    },
+    "done": true
+  },
   "kimetsunoyaiba:kinoe": {
     "criteria": {
       "kinoe_0": "2025-09-17 22:56:18 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:receive_80_damage": {
+    "criteria": {
+      "receive_80_damage_0": "2025-09-17 23:25:12 +0000"
     },
     "done": true
   },

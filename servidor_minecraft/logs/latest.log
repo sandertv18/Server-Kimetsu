@@ -747,3 +747,12 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [17Sep2025 19:50:12.026] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
 [17Sep2025 19:50:12.027] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
 [17Sep2025 19:50:12.030] [Server thread/WARN] [ModernFix/]: Dedicated server took 63.239 seconds to load
+[17Sep2025 20:06:43.147] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: NeroMr[/127.159.228.156:52641] logged in with entity id 126 at (-7.5, 77.0, -0.5)
+[17Sep2025 20:06:43.171] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player NeroMr
+[17Sep2025 20:06:43.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr joined the game
+[17Sep2025 20:06:43.338] [Server thread/INFO] [Jade/]: Syncing config to NeroMr (c9db194a-9bc9-3309-9793-3b77b45ab960)
+[17Sep2025 20:06:44.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has made the advancement [Mission No.1]
+[17Sep2025 20:08:33.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has made the advancement [Best Friends Forever]
+[17Sep2025 20:08:33.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has made the advancement [Demon Slayer Corps]
+[17Sep2025 20:08:33.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Mizunoto]
+[17Sep2025 20:08:53.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died

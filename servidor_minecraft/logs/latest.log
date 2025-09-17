@@ -514,3 +514,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [17Sep2025 21:15:06.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr fell from a high place
 [17Sep2025 21:15:17.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to 25.500000, 88.500000, -62.500000]
 [17Sep2025 21:23:50.381] [Server thread/INFO] [fastsuite/]: Constructed recipe list for minecraft:crafting in 2.283 ms. 1879/1914 recipes are parallelized.
+[17Sep2025 21:37:20.427] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Uki[/127.195.50.250:49397] logged in with entity id 11288 at (-1.5, 91.0, -8.5)
+[17Sep2025 21:37:20.432] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Uki
+[17Sep2025 21:37:20.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki joined the game
+[17Sep2025 21:37:20.465] [Server thread/INFO] [Jade/]: Syncing config to Uki (eedd79f4-52d7-3907-b135-85c2fee27c97)
+[17Sep2025 21:37:21.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has made the advancement [Mission No.1]
+[17Sep2025 21:40:12.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to Uki]

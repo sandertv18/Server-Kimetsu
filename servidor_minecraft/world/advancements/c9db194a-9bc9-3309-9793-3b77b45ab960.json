@@ -19,6 +19,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:eroded_badlands": "2025-09-17 23:20:44 +0000",
       "minecraft:wooded_badlands": "2025-09-17 21:16:14 +0000",
       "minecraft:badlands": "2025-09-17 22:11:50 +0000",
       "minecraft:forest": "2025-09-17 20:12:00 +0000",
@@ -141,6 +142,12 @@
     },
     "done": true
   },
+  "kimetsunoyaiba:breathing_60": {
+    "criteria": {
+      "breathing_60_0": "2025-09-17 23:12:40 +0000"
+    },
+    "done": true
+  },
   "kimetsunoyaiba:strongest": {
     "criteria": {
       "strongest_0": "2025-09-17 22:56:18 +0000"
@@ -183,6 +190,12 @@
     },
     "done": true
   },
+  "kimetsunoyaiba:breathing_100": {
+    "criteria": {
+      "breathing_100_0": "2025-09-17 23:13:43 +0000"
+    },
+    "done": true
+  },
   "kimetsunoyaiba:bloody_battle_lower_6": {
     "criteria": {
       "bloody_battle_lower_6_0": "2025-09-17 22:56:18 +0000"
@@ -204,6 +217,18 @@
   "kimetsunoyaiba:bloody_battle_lower_2": {
     "criteria": {
       "bloody_battle_lower_2_0": "2025-09-17 22:46:07 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:breathing_80": {
+    "criteria": {
+      "breathing_80_0": "2025-09-17 23:13:22 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:transparent_world": {
+    "criteria": {
+      "transparent_world_0": "2025-09-17 23:13:43 +0000"
     },
     "done": true
   },

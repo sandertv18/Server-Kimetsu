@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "kimetsunoyaiba:mizunoe": {
+    "criteria": {
+      "mizunoe_0": "2025-09-17 21:47:09 +0000"
+    },
+    "done": true
+  },
   "kimetsunoyaiba:demon_slayer": {
     "criteria": {
       "demon_slayer_0": "2025-09-17 21:37:20 +0000"
@@ -32,6 +38,12 @@
   "kimetsunoyaiba:mizunoto": {
     "criteria": {
       "mizunoto_0": "2025-09-17 21:42:53 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:kanoto": {
+    "criteria": {
+      "kanoto_0": "2025-09-17 21:50:42 +0000"
     },
     "done": true
   },

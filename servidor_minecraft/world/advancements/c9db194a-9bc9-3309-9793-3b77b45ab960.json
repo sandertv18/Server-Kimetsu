@@ -68,6 +68,12 @@
     },
     "done": true
   },
+  "kimetsunoyaiba:tsuchinoto": {
+    "criteria": {
+      "tsuchinoto_0": "2025-09-17 21:48:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2025-09-17 21:23:55 +0000"

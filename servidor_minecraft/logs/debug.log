@@ -5134,3 +5134,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [17Sep2025 22:30:41.629] [Server thread/INFO] [Jade/]: Syncing config to NeroMr (c9db194a-9bc9-3309-9793-3b77b45ab960)
 [17Sep2025 22:32:04.013] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [17Sep2025 22:32:04.019] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[17Sep2025 22:37:03.998] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[17Sep2025 22:37:04.005] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[17Sep2025 22:42:04.000] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[17Sep2025 22:42:04.007] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

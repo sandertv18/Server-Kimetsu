@@ -538,3 +538,20 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [17Sep2025 21:53:06.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -88.500000, 66.500000, 115.500000]
 [17Sep2025 22:00:17.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -56.500000, 88.500000, -99.500000]
 [17Sep2025 22:00:43.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to Uki]
+[17Sep2025 22:05:07.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [Kanoe]
+[17Sep2025 22:05:40.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Made Uki a server operator]
+[17Sep2025 22:05:55.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Kill 12 Moons]
+[17Sep2025 22:05:55.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Tsuchinoe]
+[17Sep2025 22:06:01.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Uki: Teleported Uki to NeroMr]
+[17Sep2025 22:06:47.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki died
+[17Sep2025 22:06:56.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr was doomed to fall by Kamanue
+[17Sep2025 22:07:00.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to 35.500000, 115.500000, -43.500000]
+[17Sep2025 22:07:07.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to Uki]
+[17Sep2025 22:07:14.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Creative Mode]
+[17Sep2025 22:07:18.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki drowned
+[17Sep2025 22:07:31.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Survival Mode]
+[17Sep2025 22:08:13.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 22:08:19.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to 34.500000, 109.500000, -10.500000]
+[17Sep2025 22:08:28.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to Uki]
+[17Sep2025 22:09:32.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [Tsuchinoto]
+[17Sep2025 22:11:10.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to 28.500000, 109.500000, -340.500000]

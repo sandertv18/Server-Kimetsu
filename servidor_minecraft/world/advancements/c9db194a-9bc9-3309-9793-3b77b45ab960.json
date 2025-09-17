@@ -20,6 +20,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:wooded_badlands": "2025-09-17 21:16:14 +0000",
+      "minecraft:badlands": "2025-09-17 22:11:50 +0000",
       "minecraft:forest": "2025-09-17 20:12:00 +0000",
       "minecraft:desert": "2025-09-17 20:07:58 +0000",
       "minecraft:jungle": "2025-09-17 20:11:24 +0000"
@@ -56,6 +57,12 @@
     },
     "done": true
   },
+  "kimetsunoyaiba:kill_12_moons": {
+    "criteria": {
+      "kill_12_moons_0": "2025-09-17 22:05:55 +0000"
+    },
+    "done": true
+  },
   "kimetsunoyaiba:mizunoe": {
     "criteria": {
       "mizunoe_0": "2025-09-17 21:07:53 +0000"
@@ -77,6 +84,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2025-09-17 21:23:55 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:tsuchinoe": {
+    "criteria": {
+      "tsuchinoe_0": "2025-09-17 22:05:55 +0000"
     },
     "done": true
   },

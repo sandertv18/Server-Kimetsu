@@ -68,6 +68,12 @@
     },
     "done": true
   },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-09-17 21:23:55 +0000"
+    },
+    "done": true
+  },
   "kimetsunoyaiba:kanoto": {
     "criteria": {
       "kanoto_0": "2025-09-17 21:08:53 +0000"

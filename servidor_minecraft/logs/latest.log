@@ -513,3 +513,4 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [17Sep2025 21:12:51.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set display slot list to show objective Vida]
 [17Sep2025 21:15:06.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr fell from a high place
 [17Sep2025 21:15:17.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to 25.500000, 88.500000, -62.500000]
+[17Sep2025 21:23:50.381] [Server thread/INFO] [fastsuite/]: Constructed recipe list for minecraft:crafting in 2.283 ms. 1879/1914 recipes are parallelized.

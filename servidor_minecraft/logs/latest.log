@@ -1,104 +1,749 @@
-[17Sep2025 15:53:50.465] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[17Sep2025 15:53:50.469] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[17Sep2025 15:53:50.557] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/Server-Kimetsu/servidor_minecraft/config/fml.toml is not correct. Correcting
-[17Sep2025 15:53:50.558] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
-[17Sep2025 15:53:50.559] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
-[17Sep2025 15:53:50.559] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
-[17Sep2025 15:53:50.560] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
-[17Sep2025 15:53:50.574] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[17Sep2025 15:53:50.619] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server-Kimetsu/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[17Sep2025 15:53:50.793] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Kimetsu/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[17Sep2025 15:53:50.795] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Kimetsu/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[17Sep2025 15:53:50.796] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Kimetsu/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[17Sep2025 15:53:50.797] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Kimetsu/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[17Sep2025 15:53:50.876] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[17Sep2025 15:53:52.343] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[17Sep2025 15:53:57.602] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[17Sep2025 15:53:57.604] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[17Sep2025 15:53:58.213] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[17Sep2025 15:53:58.697] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[17Sep2025 15:53:59.172] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17Sep2025 15:53:59.204] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server-Kimetsu/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
-[17Sep2025 15:53:59.205] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server-Kimetsu/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
-[17Sep2025 15:54:00.906] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[17Sep2025 15:54:01.041] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[17Sep2025 15:54:01.562] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[17Sep2025 15:54:01.563] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[17Sep2025 15:54:01.563] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[17Sep2025 15:54:01.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[17Sep2025 15:54:01.656] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[17Sep2025 15:54:01.702] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[17Sep2025 15:54:01.805] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17Sep2025 15:54:01.806] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[17Sep2025 15:54:01.806] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17Sep2025 15:54:01.807] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[17Sep2025 15:54:01.835] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[17Sep2025 15:54:01.837] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[17Sep2025 15:54:01.838] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[17Sep2025 15:54:01.839] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[17Sep2025 15:54:01.839] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[17Sep2025 15:54:01.840] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[17Sep2025 15:54:01.840] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[17Sep2025 15:54:01.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[17Sep2025 15:54:01.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[17Sep2025 15:54:01.875] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[17Sep2025 15:54:08.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[17Sep2025 15:54:09.107] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Sep2025 15:54:09.109] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Sep2025 15:54:09.109] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Sep2025 15:54:09.597] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Sep2025 15:54:10.117] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Sep2025 15:54:10.582] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[17Sep2025 15:54:11.076] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[17Sep2025 15:54:11.595] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[17Sep2025 15:54:12.078] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[17Sep2025 15:54:12.579] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[17Sep2025 15:54:13.135] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[17Sep2025 15:54:13.598] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[17Sep2025 15:54:14.091] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[17Sep2025 15:54:14.587] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[17Sep2025 15:54:15.075] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[17Sep2025 15:54:15.576] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[17Sep2025 15:54:16.079] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
-[17Sep2025 15:54:16.575] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
-[17Sep2025 15:54:17.077] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[17Sep2025 15:54:17.581] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[17Sep2025 15:54:18.076] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[17Sep2025 15:54:18.577] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[17Sep2025 15:54:19.080] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[17Sep2025 15:54:19.595] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[17Sep2025 15:54:20.114] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
-[17Sep2025 15:54:20.579] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
-[17Sep2025 15:54:21.082] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
-[17Sep2025 15:54:21.582] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[17Sep2025 15:54:22.078] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
-[17Sep2025 15:54:22.579] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
-[17Sep2025 15:54:23.075] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
-[17Sep2025 15:54:23.576] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[17Sep2025 15:54:24.111] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[17Sep2025 15:54:24.597] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
-[17Sep2025 15:54:25.080] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
-[17Sep2025 15:54:25.604] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[17Sep2025 15:54:26.076] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[17Sep2025 15:54:26.584] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
-[17Sep2025 15:54:27.099] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
-[17Sep2025 15:54:27.580] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
-[17Sep2025 15:54:28.622] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
-[17Sep2025 15:54:28.623] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
-[17Sep2025 15:54:29.077] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
-[17Sep2025 15:54:29.600] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
-[17Sep2025 15:54:30.076] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
-[17Sep2025 15:54:30.576] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
-[17Sep2025 15:54:31.076] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
-[17Sep2025 15:54:31.574] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
-[17Sep2025 15:54:32.080] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[17Sep2025 15:54:32.576] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
-[17Sep2025 15:54:33.074] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
-[17Sep2025 15:54:33.574] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[17Sep2025 15:54:34.075] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
-[17Sep2025 15:54:34.615] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[17Sep2025 15:54:34.977] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 26903 ms
-[17Sep2025 15:54:34.978] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (33.151s)! For help, type "help"
-[17Sep2025 15:54:34.992] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[17Sep2025 15:54:35.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[17Sep2025 15:54:35.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: home/codespace/.python/current/bin/python3 /workspaces/Server-Kimetsu/msx.py<--[HERE]
+[17Sep2025 19:49:10.872] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[17Sep2025 19:49:10.875] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[17Sep2025 19:49:11.171] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[17Sep2025 19:49:11.213] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Server-Kimetsu/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[17Sep2025 19:49:11.496] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Kimetsu/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[17Sep2025 19:49:11.497] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Kimetsu/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[17Sep2025 19:49:11.498] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Kimetsu/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[17Sep2025 19:49:11.499] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Server-Kimetsu/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[17Sep2025 19:49:11.698] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[17Sep2025 19:49:13.721] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[17Sep2025 19:49:13.919] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[17Sep2025 19:49:13.922] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[17Sep2025 19:49:13.985] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 125 options available, 1 override(s) found
+[17Sep2025 19:49:14.174] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.23.0+mc1.20.1: 95 options available, 0 override(s) found
+[17Sep2025 19:49:14.175] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[17Sep2025 19:49:14.192] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[17Sep2025 19:49:14.565] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[17Sep2025 19:49:15.722] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[17Sep2025 19:49:15.747] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[17Sep2025 19:49:16.265] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
+[17Sep2025 19:49:16.441] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[17Sep2025 19:49:16.940] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (8.150 s after launch)
+[17Sep2025 19:49:17.094] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[17Sep2025 19:49:17.095] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[17Sep2025 19:49:17.265] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[17Sep2025 19:49:17.267] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[17Sep2025 19:49:17.267] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[17Sep2025 19:49:18.993] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[17Sep2025 19:49:18.995] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[17Sep2025 19:49:19.030] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[17Sep2025 19:49:19.031] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[17Sep2025 19:49:19.088] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2143 milliseconds
+[17Sep2025 19:49:21.605] [main/WARN] [mixin/]: Method overwrite conflict for m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[17Sep2025 19:49:22.003] [modloading-worker-0/INFO] [Better Compatibility Checker/]: Better Compatibility Checker starting
+[17Sep2025 19:49:22.026] [modloading-worker-0/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Disabled because not running on the client.
+[17Sep2025 19:49:22.093] [modloading-worker-0/INFO] [snownee.kiwi.Kiwi/INIT]: Processing 5 KiwiModule annotations
+[17Sep2025 19:49:22.174] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Registering server started event ...
+[17Sep2025 19:49:22.305] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[17Sep2025 19:49:22.375] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[17Sep2025 19:49:22.375] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[17Sep2025 19:49:23.002] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 164 modules to load.
+[17Sep2025 19:49:23.002] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
+[17Sep2025 19:49:23.011] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
+[17Sep2025 19:49:23.013] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
+[17Sep2025 19:49:23.015] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
+[17Sep2025 19:49:23.028] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
+[17Sep2025 19:49:23.053] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
+[17Sep2025 19:49:23.054] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
+[17Sep2025 19:49:23.054] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
+[17Sep2025 19:49:23.054] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
+[17Sep2025 19:49:23.063] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
+[17Sep2025 19:49:23.064] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
+[17Sep2025 19:49:23.065] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
+[17Sep2025 19:49:23.082] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
+[17Sep2025 19:49:23.084] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
+[17Sep2025 19:49:23.087] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
+[17Sep2025 19:49:23.094] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
+[17Sep2025 19:49:23.096] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
+[17Sep2025 19:49:23.097] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
+[17Sep2025 19:49:23.098] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
+[17Sep2025 19:49:23.099] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
+[17Sep2025 19:49:23.100] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
+[17Sep2025 19:49:23.101] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
+[17Sep2025 19:49:23.102] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
+[17Sep2025 19:49:23.102] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
+[17Sep2025 19:49:23.105] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
+[17Sep2025 19:49:23.106] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
+[17Sep2025 19:49:23.106] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
+[17Sep2025 19:49:23.111] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
+[17Sep2025 19:49:23.111] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
+[17Sep2025 19:49:23.112] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
+[17Sep2025 19:49:23.113] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
+[17Sep2025 19:49:23.127] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
+[17Sep2025 19:49:23.129] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[17Sep2025 19:49:23.130] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
+[17Sep2025 19:49:23.132] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[17Sep2025 19:49:23.133] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
+[17Sep2025 19:49:23.134] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
+[17Sep2025 19:49:23.135] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
+[17Sep2025 19:49:23.139] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
+[17Sep2025 19:49:23.139] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
+[17Sep2025 19:49:23.140] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
+[17Sep2025 19:49:23.140] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
+[17Sep2025 19:49:23.147] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
+[17Sep2025 19:49:23.148] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
+[17Sep2025 19:49:23.148] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
+[17Sep2025 19:49:23.149] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
+[17Sep2025 19:49:23.149] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
+[17Sep2025 19:49:23.150] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
+[17Sep2025 19:49:23.152] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
+[17Sep2025 19:49:23.153] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
+[17Sep2025 19:49:23.154] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
+[17Sep2025 19:49:23.156] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[17Sep2025 19:49:23.156] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
+[17Sep2025 19:49:23.157] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fallen Logs...
+[17Sep2025 19:49:23.163] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
+[17Sep2025 19:49:23.165] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[17Sep2025 19:49:23.166] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
+[17Sep2025 19:49:23.172] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
+[17Sep2025 19:49:23.174] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
+[17Sep2025 19:49:23.174] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
+[17Sep2025 19:49:23.175] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
+[17Sep2025 19:49:23.178] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[17Sep2025 19:49:23.179] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
+[17Sep2025 19:49:23.180] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
+[17Sep2025 19:49:23.193] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
+[17Sep2025 19:49:23.195] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
+[17Sep2025 19:49:23.198] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
+[17Sep2025 19:49:23.198] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
+[17Sep2025 19:49:23.200] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
+[17Sep2025 19:49:23.202] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
+[17Sep2025 19:49:23.203] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
+[17Sep2025 19:49:23.204] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
+[17Sep2025 19:49:23.208] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
+[17Sep2025 19:49:23.209] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
+[17Sep2025 19:49:23.212] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
+[17Sep2025 19:49:23.212] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
+[17Sep2025 19:49:23.213] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
+[17Sep2025 19:49:23.214] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
+[17Sep2025 19:49:23.218] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
+[17Sep2025 19:49:23.220] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
+[17Sep2025 19:49:23.235] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
+[17Sep2025 19:49:23.236] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
+[17Sep2025 19:49:23.236] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
+[17Sep2025 19:49:23.240] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
+[17Sep2025 19:49:23.241] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
+[17Sep2025 19:49:23.241] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magma Keeps Concrete Powder...
+[17Sep2025 19:49:23.242] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
+[17Sep2025 19:49:23.249] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[17Sep2025 19:49:23.249] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
+[17Sep2025 19:49:23.267] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
+[17Sep2025 19:49:23.275] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[17Sep2025 19:49:23.281] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
+[17Sep2025 19:49:23.281] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
+[17Sep2025 19:49:23.282] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
+[17Sep2025 19:49:23.282] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
+[17Sep2025 19:49:23.282] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
+[17Sep2025 19:49:23.283] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
+[17Sep2025 19:49:23.283] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
+[17Sep2025 19:49:23.296] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
+[17Sep2025 19:49:23.297] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
+[17Sep2025 19:49:23.297] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[17Sep2025 19:49:23.297] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Villagers...
+[17Sep2025 19:49:23.298] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
+[17Sep2025 19:49:23.298] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
+[17Sep2025 19:49:23.298] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
+[17Sep2025 19:49:23.308] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
+[17Sep2025 19:49:23.310] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
+[17Sep2025 19:49:23.311] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
+[17Sep2025 19:49:23.314] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
+[17Sep2025 19:49:23.315] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
+[17Sep2025 19:49:23.316] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
+[17Sep2025 19:49:23.317] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[17Sep2025 19:49:23.320] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
+[17Sep2025 19:49:23.321] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
+[17Sep2025 19:49:23.327] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
+[17Sep2025 19:49:23.328] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Petals On Water...
+[17Sep2025 19:49:23.332] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
+[17Sep2025 19:49:23.334] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
+[17Sep2025 19:49:23.337] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
+[17Sep2025 19:49:23.343] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
+[17Sep2025 19:49:23.344] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
+[17Sep2025 19:49:23.344] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
+[17Sep2025 19:49:23.345] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
+[17Sep2025 19:49:23.345] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
+[17Sep2025 19:49:23.352] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
+[17Sep2025 19:49:23.353] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
+[17Sep2025 19:49:23.354] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
+[17Sep2025 19:49:23.358] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
+[17Sep2025 19:49:23.359] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
+[17Sep2025 19:49:23.363] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
+[17Sep2025 19:49:23.367] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
+[17Sep2025 19:49:23.439] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
+[17Sep2025 19:49:23.465] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
+[17Sep2025 19:49:23.467] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[17Sep2025 19:49:23.467] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
+[17Sep2025 19:49:23.468] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
+[17Sep2025 19:49:23.469] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
+[17Sep2025 19:49:23.470] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
+[17Sep2025 19:49:23.478] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[17Sep2025 19:49:23.482] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
+[17Sep2025 19:49:23.486] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
+[17Sep2025 19:49:23.539] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
+[17Sep2025 19:49:23.543] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
+[17Sep2025 19:49:23.545] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
+[17Sep2025 19:49:23.546] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
+[17Sep2025 19:49:23.551] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
+[17Sep2025 19:49:23.552] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
+[17Sep2025 19:49:23.574] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
+[17Sep2025 19:49:23.575] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[17Sep2025 19:49:23.575] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
+[17Sep2025 19:49:23.576] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[17Sep2025 19:49:23.576] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
+[17Sep2025 19:49:23.576] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
+[17Sep2025 19:49:23.578] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
+[17Sep2025 19:49:23.579] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
+[17Sep2025 19:49:23.581] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
+[17Sep2025 19:49:23.582] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[17Sep2025 19:49:23.582] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
+[17Sep2025 19:49:23.583] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
+[17Sep2025 19:49:23.585] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
+[17Sep2025 19:49:23.585] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
+[17Sep2025 19:49:23.586] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
+[17Sep2025 19:49:23.586] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
+[17Sep2025 19:49:23.587] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
+[17Sep2025 19:49:23.588] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
+[17Sep2025 19:49:23.622] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
+[17Sep2025 19:49:23.638] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
+[17Sep2025 19:49:23.638] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
+[17Sep2025 19:49:23.640] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
+[17Sep2025 19:49:23.641] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
+[17Sep2025 19:49:23.659] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
+[17Sep2025 19:49:23.663] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
+[17Sep2025 19:49:23.665] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
+[17Sep2025 19:49:23.667] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
+[17Sep2025 19:49:23.672] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
+[17Sep2025 19:49:23.674] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
+[17Sep2025 19:49:23.679] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
+[17Sep2025 19:49:23.683] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
+[17Sep2025 19:49:23.683] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
+[17Sep2025 19:49:23.700] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 164 modules.
+[17Sep2025 19:49:25.210] [main/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:block_templates] initialized
+[17Sep2025 19:49:25.212] [main/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:block_components] initialized
+[17Sep2025 19:49:25.213] [main/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:data] initialized
+[17Sep2025 19:49:25.213] [main/INFO] [snownee.kiwi.Kiwi/INIT]: 		recipe_serializer: 3
+[17Sep2025 19:49:25.213] [main/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:item_templates] initialized
+[17Sep2025 19:49:25.421] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@6087daa3 has been registered twice for the same name treechop:chop_wood.
+[17Sep2025 19:49:26.238] [main/INFO] [Moonlight/]: Initialized block sets in 13ms
+[17Sep2025 19:49:26.854] [main/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
+[17Sep2025 19:49:27.042] [modloading-worker-0/INFO] [Better Compatibility Checker/]: Better Compatibility Checker setup
+[17Sep2025 19:49:27.052] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[17Sep2025 19:49:27.053] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[17Sep2025 19:49:27.203] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Starting version check at https://api.modrinth.com/updates/radium/forge_updates.json
+[17Sep2025 19:49:27.474] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[17Sep2025 19:49:27.560] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Found status: AHEAD Current: 0.12.4+git.26c9d8e Target: null
+[17Sep2025 19:49:27.561] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[17Sep2025 19:49:27.620] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.49 Target: null
+[17Sep2025 19:49:27.621] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Starting version check at https://api.modrinth.com/updates/7YjclEGc/forge_updates.json?forge=only
+[17Sep2025 19:49:27.713] [main/INFO] [Moonlight/]: Initialized color sets in 24ms
+[17Sep2025 19:49:27.768] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Found status: UP_TO_DATE Current: 1.8.9+mod Target: null
+[17Sep2025 19:49:27.769] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[17Sep2025 19:49:27.822] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[17Sep2025 19:49:27.822] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[17Sep2025 19:49:27.847] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[17Sep2025 19:49:27.847] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[17Sep2025 19:49:28.157] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ht.treechop.compat.Jade
+[17Sep2025 19:49:28.164] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.kiwi.customization.compat.jade.JadeCompat
+[17Sep2025 19:49:28.165] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[17Sep2025 19:49:28.175] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[17Sep2025 19:49:28.179] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[17Sep2025 19:49:28.181] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[17Sep2025 19:49:28.777] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.8 Target: 1.20.1-1.4.15
+[17Sep2025 19:49:28.778] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.20.1
+[17Sep2025 19:49:28.813] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17Sep2025 19:49:28.903] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[17Sep2025 19:49:28.922] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server-Kimetsu/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23177!/assets/.mcassetsroot' uses unexpected schema
+[17Sep2025 19:49:28.923] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Server-Kimetsu/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23177!/data/.mcassetsroot' uses unexpected schema
+[17Sep2025 19:49:29.230] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Found status: BETA_OUTDATED Current: 14.0.57 Target: 14.0.59
+[17Sep2025 19:49:29.231] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[17Sep2025 19:49:29.546] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[17Sep2025 19:49:29.546] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[17Sep2025 19:49:29.688] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.21 Target: null
+[17Sep2025 19:49:30.975] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:kimetsunoyaiba:entities/enmu_train
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'kimetsunoyaiba:muzanblood'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23182!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23182!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[17Sep2025 19:49:31.114] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.115] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe kimetsunoyaiba:recipe_lantern_12: com.google.gson.JsonSyntaxException: Unknown item 'kimetsunoyaiba:deleted_mod_element'
+[17Sep2025 19:49:31.117] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.117] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[17Sep2025 19:49:31.131] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.131] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[17Sep2025 19:49:31.132] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.132] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.135] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.136] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.136] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.137] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.137] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.137] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.138] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.139] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.139] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.141] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.141] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.142] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[17Sep2025 19:49:31.142] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.143] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe kimetsunoyaiba:recipe_lantern_3: com.google.gson.JsonSyntaxException: Unknown item 'kimetsunoyaiba:deleted_mod_element'
+[17Sep2025 19:49:31.143] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe kimetsunoyaiba:recipe_lantern_2: com.google.gson.JsonSyntaxException: Unknown item 'kimetsunoyaiba:deleted_mod_element'
+[17Sep2025 19:49:31.144] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.146] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[17Sep2025 19:49:31.150] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe kimetsunoyaiba:recipe_lantern_2red: com.google.gson.JsonSyntaxException: Unknown item 'kimetsunoyaiba:deleted_mod_element'
+[17Sep2025 19:49:31.150] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.152] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.154] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[17Sep2025 19:49:31.156] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.158] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.158] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[17Sep2025 19:49:31.159] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[17Sep2025 19:49:31.163] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[17Sep2025 19:49:31.163] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[17Sep2025 19:49:31.164] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[17Sep2025 19:49:31.165] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[17Sep2025 19:49:31.166] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.166] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[17Sep2025 19:49:31.167] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[17Sep2025 19:49:31.168] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[17Sep2025 19:49:31.171] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[17Sep2025 19:49:31.172] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.175] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.177] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.177] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe kimetsunoyaiba:recipe_senpai: com.google.gson.JsonSyntaxException: Unknown item 'kimetsunoyaiba:dice_steak_head'
+[17Sep2025 19:49:31.178] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.178] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.179] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.179] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.181] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[17Sep2025 19:49:31.182] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.183] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.184] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.186] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.187] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.188] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.190] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.192] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.192] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[17Sep2025 19:49:31.193] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.194] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.195] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[17Sep2025 19:49:31.197] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.199] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.199] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.203] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[17Sep2025 19:49:31.204] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[17Sep2025 19:49:31.207] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.207] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.208] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.208] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[17Sep2025 19:49:31.209] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.211] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.211] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.212] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.213] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.213] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.213] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[17Sep2025 19:49:31.214] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[17Sep2025 19:49:31.215] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.217] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[17Sep2025 19:49:31.217] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.218] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[17Sep2025 19:49:31.221] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.222] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.223] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.223] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.224] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.224] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.227] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.228] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.228] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.228] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.229] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.229] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.230] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[17Sep2025 19:49:31.231] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[17Sep2025 19:49:31.232] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[17Sep2025 19:49:31.232] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.235] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.235] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.236] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[17Sep2025 19:49:31.237] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.239] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[17Sep2025 19:49:31.240] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.241] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[17Sep2025 19:49:31.242] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.245] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.247] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.248] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[17Sep2025 19:49:31.248] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.249] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.250] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[17Sep2025 19:49:31.251] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[17Sep2025 19:49:31.252] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[17Sep2025 19:49:31.253] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.254] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.255] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.255] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.256] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[17Sep2025 19:49:31.256] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[17Sep2025 19:49:31.258] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.259] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.259] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[17Sep2025 19:49:31.260] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.261] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.261] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[17Sep2025 19:49:31.262] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.262] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.263] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.264] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[17Sep2025 19:49:31.265] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.265] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.266] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[17Sep2025 19:49:31.267] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
+[17Sep2025 19:49:31.268] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.269] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.270] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.272] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[17Sep2025 19:49:31.273] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.273] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
+[17Sep2025 19:49:31.274] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.275] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.275] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
+[17Sep2025 19:49:31.276] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
+[17Sep2025 19:49:31.276] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe kimetsunoyaiba:recipe_lantern: com.google.gson.JsonSyntaxException: Unknown item 'kimetsunoyaiba:deleted_mod_element'
+[17Sep2025 19:49:31.277] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.278] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
+[17Sep2025 19:49:31.279] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
+[17Sep2025 19:49:31.282] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[17Sep2025 19:49:31.371] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 1231 recipe advancements
+[17Sep2025 19:49:31.377] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 230 advancements
+[17Sep2025 19:49:31.382] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[17Sep2025 19:49:31.400] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[17Sep2025 19:49:31.401] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[17Sep2025 19:49:31.401] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[17Sep2025 19:49:31.402] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[17Sep2025 19:49:31.402] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
+[17Sep2025 19:49:31.403] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_effects with 1 patches
+[17Sep2025 19:49:31.403] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[17Sep2025 19:49:31.404] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[17Sep2025 19:49:31.404] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_potions with 1 patches
+[17Sep2025 19:49:31.405] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[17Sep2025 19:49:32.039] [main/WARN] [ModernFix/]: Initial datapack load took 3.096 s
+[17Sep2025 19:49:32.185] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[17Sep2025 19:49:32.186] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[17Sep2025 19:49:32.187] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[17Sep2025 19:49:32.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[17Sep2025 19:49:32.296] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[17Sep2025 19:49:32.315] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[17Sep2025 19:49:32.394] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17Sep2025 19:49:32.395] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[17Sep2025 19:49:32.395] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17Sep2025 19:49:32.396] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[17Sep2025 19:49:32.412] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/jei-server.toml is not correct. Correcting
+[17Sep2025 19:49:32.414] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.414] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
+[17Sep2025 19:49:32.415] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
+[17Sep2025 19:49:32.415] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
+[17Sep2025 19:49:32.417] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/sophisticatedbackpacks-server.toml is not correct. Correcting
+[17Sep2025 19:49:32.418] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.418] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.disallowedItems was corrected from null to its default, []. 
+[17Sep2025 19:49:32.418] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.containerItemsDisallowed was corrected from null to its default, false. 
+[17Sep2025 19:49:32.419] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.noInteractionBlocks was corrected from null to its default, []. 
+[17Sep2025 19:49:32.420] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.noConnectionBlocks was corrected from null to its default, []. 
+[17Sep2025 19:49:32.421] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.422] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack.inventorySlotCount was corrected from null to its default, 27. 
+[17Sep2025 19:49:32.422] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack.upgradeSlotCount was corrected from null to its default, 1. 
+[17Sep2025 19:49:32.423] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.423] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack.inventorySlotCount was corrected from null to its default, 45. 
+[17Sep2025 19:49:32.423] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack.upgradeSlotCount was corrected from null to its default, 1. 
+[17Sep2025 19:49:32.423] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.424] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack.inventorySlotCount was corrected from null to its default, 54. 
+[17Sep2025 19:49:32.425] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack.upgradeSlotCount was corrected from null to its default, 2. 
+[17Sep2025 19:49:32.425] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.425] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack.inventorySlotCount was corrected from null to its default, 81. 
+[17Sep2025 19:49:32.425] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack.upgradeSlotCount was corrected from null to its default, 3. 
+[17Sep2025 19:49:32.426] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.426] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack.inventorySlotCount was corrected from null to its default, 108. 
+[17Sep2025 19:49:32.426] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack.upgradeSlotCount was corrected from null to its default, 5. 
+[17Sep2025 19:49:32.426] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.428] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack.inventorySlotCount was corrected from null to its default, 120. 
+[17Sep2025 19:49:32.429] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack.upgradeSlotCount was corrected from null to its default, 7. 
+[17Sep2025 19:49:32.429] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.429] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade.filterSlots was corrected from null to its default, 9. 
+[17Sep2025 19:49:32.430] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade.slotsInRow was corrected from null to its default, 3. 
+[17Sep2025 19:49:32.430] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.430] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade.filterSlots was corrected from null to its default, 16. 
+[17Sep2025 19:49:32.431] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade.slotsInRow was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.431] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.431] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade.filterSlots was corrected from null to its default, 9. 
+[17Sep2025 19:49:32.431] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade.slotsInRow was corrected from null to its default, 3. 
+[17Sep2025 19:49:32.432] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.432] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade.filterSlots was corrected from null to its default, 16. 
+[17Sep2025 19:49:32.432] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade.slotsInRow was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.432] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.433] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade.filterSlots was corrected from null to its default, 9. 
+[17Sep2025 19:49:32.433] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade.slotsInRow was corrected from null to its default, 3. 
+[17Sep2025 19:49:32.433] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.434] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade.filterSlots was corrected from null to its default, 16. 
+[17Sep2025 19:49:32.437] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade.slotsInRow was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.437] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.438] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade.filterSlots was corrected from null to its default, 9. 
+[17Sep2025 19:49:32.440] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade.slotsInRow was corrected from null to its default, 3. 
+[17Sep2025 19:49:32.440] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.440] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade.filterSlots was corrected from null to its default, 16. 
+[17Sep2025 19:49:32.441] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade.slotsInRow was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.441] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.441] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.filterSlots was corrected from null to its default, 9. 
+[17Sep2025 19:49:32.441] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.slotsInRow was corrected from null to its default, 3. 
+[17Sep2025 19:49:32.443] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.magnetRange was corrected from null to its default, 3. 
+[17Sep2025 19:49:32.443] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.444] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.filterSlots was corrected from null to its default, 16. 
+[17Sep2025 19:49:32.445] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.slotsInRow was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.445] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.magnetRange was corrected from null to its default, 5. 
+[17Sep2025 19:49:32.446] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.446] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade.filterSlots was corrected from null to its default, 9. 
+[17Sep2025 19:49:32.447] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade.slotsInRow was corrected from null to its default, 3. 
+[17Sep2025 19:49:32.447] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.447] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade.filterSlots was corrected from null to its default, 16. 
+[17Sep2025 19:49:32.448] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade.slotsInRow was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.448] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.449] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade.filterSlots was corrected from null to its default, 6. 
+[17Sep2025 19:49:32.450] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade.slotsInRow was corrected from null to its default, 3. 
+[17Sep2025 19:49:32.450] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.451] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade.filterSlots was corrected from null to its default, 12. 
+[17Sep2025 19:49:32.451] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade.slotsInRow was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.452] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.456] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade.filterSlots was corrected from null to its default, 9. 
+[17Sep2025 19:49:32.456] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade.slotsInRow was corrected from null to its default, 3. 
+[17Sep2025 19:49:32.456] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.456] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade.filterSlots was corrected from null to its default, 16. 
+[17Sep2025 19:49:32.458] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade.slotsInRow was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.459] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.460] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.filterSlots was corrected from null to its default, 9. 
+[17Sep2025 19:49:32.460] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.slotsInRow was corrected from null to its default, 3. 
+[17Sep2025 19:49:32.461] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
+[17Sep2025 19:49:32.463] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.464] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.filterSlots was corrected from null to its default, 16. 
+[17Sep2025 19:49:32.465] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.slotsInRow was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.465] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
+[17Sep2025 19:49:32.466] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.stackUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.467] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.stackUpgrade.nonStackableItems was corrected from null to its default, [minecraft:bundle, minecraft:shulker_box, minecraft:white_shulker_box, minecraft:orange_shulker_box, minecraft:magenta_shulker_box, minecraft:light_blue_shulker_box, minecraft:yellow_shulker_box, minecraft:lime_shulker_box, minecraft:pink_shulker_box, minecraft:gray_shulker_box, minecraft:light_gray_shulker_box, minecraft:cyan_shulker_box, minecraft:purple_shulker_box, minecraft:blue_shulker_box, minecraft:brown_shulker_box, minecraft:green_shulker_box, minecraft:red_shulker_box, minecraft:black_shulker_box]. 
+[17Sep2025 19:49:32.468] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.468] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[17Sep2025 19:49:32.469] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[17Sep2025 19:49:32.470] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.471] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[17Sep2025 19:49:32.471] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[17Sep2025 19:49:32.472] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.472] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[17Sep2025 19:49:32.473] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[17Sep2025 19:49:32.474] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.475] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[17Sep2025 19:49:32.476] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[17Sep2025 19:49:32.476] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[17Sep2025 19:49:32.477] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.477] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.478] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.479] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.479] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[17Sep2025 19:49:32.480] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[17Sep2025 19:49:32.481] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[17Sep2025 19:49:32.482] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.482] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.483] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.484] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.484] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[17Sep2025 19:49:32.484] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[17Sep2025 19:49:32.485] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[17Sep2025 19:49:32.485] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.486] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.486] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.487] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.487] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade.upgradesUseInventoriesOfBackpacksInBackpack was corrected from null to its default, true. 
+[17Sep2025 19:49:32.488] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade.upgradesInContainedBackpacksAreFunctional was corrected from null to its default, true. 
+[17Sep2025 19:49:32.489] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.489] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade.filterSlots was corrected from null to its default, 8. 
+[17Sep2025 19:49:32.490] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade.slotsInRow was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.491] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.491] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.capacityPerSlotRow was corrected from null to its default, 4000. 
+[17Sep2025 19:49:32.492] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
+[17Sep2025 19:49:32.493] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.autoFillDrainContainerCooldown was corrected from null to its default, 20. 
+[17Sep2025 19:49:32.494] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.maxInputOutput was corrected from null to its default, 20. 
+[17Sep2025 19:49:32.494] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.energyPerSlotRow was corrected from null to its default, 10000. 
+[17Sep2025 19:49:32.495] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.495] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.filterSlots was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.496] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.maxInputOutput was corrected from null to its default, 20. 
+[17Sep2025 19:49:32.496] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
+[17Sep2025 19:49:32.497] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.497] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade.mendingOn was corrected from null to its default, true. 
+[17Sep2025 19:49:32.498] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade.maxXpPointsPerMending was corrected from null to its default, 5. 
+[17Sep2025 19:49:32.498] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedJukeboxUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.499] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedJukeboxUpgrade.numberOfSlots was corrected from null to its default, 12. 
+[17Sep2025 19:49:32.499] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedJukeboxUpgrade.slotsInRow was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.500] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.alchemyUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.500] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.alchemyUpgrade.filterSlots was corrected from null to its default, 4. 
+[17Sep2025 19:49:32.501] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedAlchemyUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.501] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedAlchemyUpgrade.filterSlots was corrected from null to its default, 8. 
+[17Sep2025 19:49:32.502] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.503] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.chance was corrected from null to its default, 0.01. 
+[17Sep2025 19:49:32.503] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.addLoot was corrected from null to its default, true. 
+[17Sep2025 19:49:32.504] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.buffWithPotionEffects was corrected from null to its default, true. 
+[17Sep2025 19:49:32.504] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.buffHealth was corrected from null to its default, true. 
+[17Sep2025 19:49:32.505] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.equipWithArmor was corrected from null to its default, true. 
+[17Sep2025 19:49:32.506] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.entityLootTableList was corrected from null to its default, [minecraft:creeper|minecraft:chests/desert_pyramid, minecraft:drowned|minecraft:chests/shipwreck_treasure, minecraft:enderman|minecraft:chests/end_city_treasure, minecraft:evoker|minecraft:chests/woodland_mansion, minecraft:husk|minecraft:chests/desert_pyramid, minecraft:piglin|minecraft:chests/bastion_bridge, minecraft:piglin_brute|minecraft:chests/bastion_treasure, minecraft:pillager|minecraft:chests/pillager_outpost, minecraft:skeleton|minecraft:chests/simple_dungeon, minecraft:stray|minecraft:chests/igloo_chest, minecraft:vex|minecraft:chests/woodland_mansion, minecraft:vindicator|minecraft:chests/woodland_mansion, minecraft:witch|minecraft:chests/buried_treasure, minecraft:wither_skeleton|minecraft:chests/nether_bridge, minecraft:zombie|minecraft:chests/simple_dungeon, minecraft:zombie_villager|minecraft:chests/village/village_armorer, minecraft:zombified_piglin|minecraft:chests/bastion_other]. 
+[17Sep2025 19:49:32.506] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.discBlockList was corrected from null to its default, [botania:record_gaia_1, botania:record_gaia_2]. 
+[17Sep2025 19:49:32.506] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.playJukebox was corrected from null to its default, true. 
+[17Sep2025 19:49:32.506] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.dropToFakePlayers was corrected from null to its default, false. 
+[17Sep2025 19:49:32.507] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.backpackDropChance was corrected from null to its default, 0.5. 
+[17Sep2025 19:49:32.507] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.lootingChanceIncreasePerLevel was corrected from null to its default, 0.15. 
+[17Sep2025 19:49:32.507] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.507] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.tooManyBackpacksSlowness was corrected from null to its default, false. 
+[17Sep2025 19:49:32.507] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.maxNumberOfBackpacks was corrected from null to its default, 3. 
+[17Sep2025 19:49:32.508] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.slownessLevelsPerAdditionalBackpack was corrected from null to its default, 1.0. 
+[17Sep2025 19:49:32.508] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.onlyWornBackpackTriggersUpgrades was corrected from null to its default, false. 
+[17Sep2025 19:49:32.508] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.maxUpgradesPerStorage was corrected from null to its default, [jukebox_upgrades|1, stack_upgrades|3, furnace_upgrades|1]. 
+[17Sep2025 19:49:32.508] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.itemFluidHandlerEnabled was corrected from null to its default, true. 
+[17Sep2025 19:49:32.508] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.allowOpeningOtherPlayerBackpacks was corrected from null to its default, true. 
+[17Sep2025 19:49:32.508] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.itemDisplayDisabled was corrected from null to its default, false. 
+[17Sep2025 19:49:32.509] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tickDedupeLogicDisabled was corrected from null to its default, false. 
+[17Sep2025 19:49:32.509] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.canBePlacedInContainerItems was corrected from null to its default, false. 
+[17Sep2025 19:49:32.517] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[17Sep2025 19:49:32.518] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.519] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[17Sep2025 19:49:32.519] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[17Sep2025 19:49:32.520] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[17Sep2025 19:49:32.520] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[17Sep2025 19:49:32.521] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[17Sep2025 19:49:32.521] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[17Sep2025 19:49:32.522] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[17Sep2025 19:49:32.526] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/corpse-server.toml is not correct. Correcting
+[17Sep2025 19:49:32.527] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.527] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.528] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access.only_owner was corrected from null to its default, false. 
+[17Sep2025 19:49:32.528] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access.skeleton was corrected from null to its default, false. 
+[17Sep2025 19:49:32.529] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17Sep2025 19:49:32.529] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn.time was corrected from null to its default, 600. 
+[17Sep2025 19:49:32.530] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn.force_time was corrected from null to its default, -1. 
+[17Sep2025 19:49:32.530] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.skeleton_time was corrected from null to its default, 72000. 
+[17Sep2025 19:49:32.531] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.lie_on_face was corrected from null to its default, false. 
+[17Sep2025 19:49:32.531] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.show_equipment was corrected from null to its default, true. 
+[17Sep2025 19:49:32.531] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.fall_into_void was corrected from null to its default, false. 
+[17Sep2025 19:49:32.532] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.lava_damage was corrected from null to its default, false. 
+[17Sep2025 19:49:32.532] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key death_storage_duration was corrected from null to its default, -1. 
+[17Sep2025 19:49:32.712] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[17Sep2025 19:49:33.193] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[17Sep2025 19:49:41.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[17Sep2025 19:49:42.172] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Sep2025 19:49:42.522] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Sep2025 19:49:43.030] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Sep2025 19:49:43.519] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Sep2025 19:49:44.010] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[17Sep2025 19:49:44.502] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[17Sep2025 19:49:45.030] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[17Sep2025 19:49:45.569] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[17Sep2025 19:49:46.001] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[17Sep2025 19:49:46.502] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[17Sep2025 19:49:47.000] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[17Sep2025 19:49:47.504] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[17Sep2025 19:49:48.010] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[17Sep2025 19:49:48.505] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[17Sep2025 19:49:49.103] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[17Sep2025 19:49:49.509] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[17Sep2025 19:49:50.003] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[17Sep2025 19:49:50.519] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[17Sep2025 19:49:51.007] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
+[17Sep2025 19:49:51.502] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[17Sep2025 19:49:52.013] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[17Sep2025 19:49:52.507] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[17Sep2025 19:49:53.001] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[17Sep2025 19:49:53.516] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[17Sep2025 19:49:54.001] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
+[17Sep2025 19:49:54.508] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[17Sep2025 19:49:55.003] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[17Sep2025 19:49:55.504] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
+[17Sep2025 19:49:56.020] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
+[17Sep2025 19:49:56.507] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
+[17Sep2025 19:49:57.000] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
+[17Sep2025 19:49:57.503] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
+[17Sep2025 19:49:58.008] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[17Sep2025 19:49:58.500] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[17Sep2025 19:49:59.000] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
+[17Sep2025 19:49:59.504] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[17Sep2025 19:50:00.001] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
+[17Sep2025 19:50:00.516] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
+[17Sep2025 19:50:01.004] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[17Sep2025 19:50:01.501] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[17Sep2025 19:50:02.002] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
+[17Sep2025 19:50:02.520] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
+[17Sep2025 19:50:03.008] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[17Sep2025 19:50:03.520] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
+[17Sep2025 19:50:04.013] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
+[17Sep2025 19:50:04.560] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[17Sep2025 19:50:05.011] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[17Sep2025 19:50:05.502] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[17Sep2025 19:50:06.005] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[17Sep2025 19:50:06.501] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
+[17Sep2025 19:50:07.021] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
+[17Sep2025 19:50:07.518] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
+[17Sep2025 19:50:08.003] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
+[17Sep2025 19:50:08.514] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[17Sep2025 19:50:09.002] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[17Sep2025 19:50:09.507] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[17Sep2025 19:50:10.040] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[17Sep2025 19:50:10.510] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
+[17Sep2025 19:50:11.008] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
+[17Sep2025 19:50:11.500] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[17Sep2025 19:50:11.973] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 29974 ms
+[17Sep2025 19:50:11.974] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (39.568s)! For help, type "help"
+[17Sep2025 19:50:11.998] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[17Sep2025 19:50:12.026] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[17Sep2025 19:50:12.027] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[17Sep2025 19:50:12.030] [Server thread/WARN] [ModernFix/]: Dedicated server took 63.239 seconds to load

@@ -674,3 +674,42 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [17Sep2025 23:31:29.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Uki: Teleported Uki to 395.500000, 63.500000, -73.500000]
 [17Sep2025 23:31:36.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Bloody Battle -Upper 2-]
 [17Sep2025 23:32:09.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to Uki]
+[17Sep2025 23:33:15.029] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr was kicked for floating too long!
+[17Sep2025 23:33:15.077] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr lost connection: Flying is not enabled on this server
+[17Sep2025 23:33:15.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr left the game
+[17Sep2025 23:33:41.785] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: NeroMr[/127.189.254.54:58705] logged in with entity id 63856 at (511.63653317379044, 97.00916387821465, -244.3788133454596)
+[17Sep2025 23:33:41.789] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player NeroMr
+[17Sep2025 23:33:41.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr joined the game
+[17Sep2025 23:33:41.821] [Server thread/INFO] [Jade/]: Syncing config to NeroMr (c9db194a-9bc9-3309-9793-3b77b45ab960)
+[17Sep2025 23:33:54.381] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr was kicked for floating too long!
+[17Sep2025 23:33:54.429] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr lost connection: Flying is not enabled on this server
+[17Sep2025 23:33:54.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr left the game
+[17Sep2025 23:34:13.038] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: NeroMr[/127.189.254.54:41393] logged in with entity id 64141 at (488.0110691920928, 65.02094634869178, -281.64853903087754)
+[17Sep2025 23:34:13.042] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player NeroMr
+[17Sep2025 23:34:13.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr joined the game
+[17Sep2025 23:34:13.065] [Server thread/INFO] [Jade/]: Syncing config to NeroMr (c9db194a-9bc9-3309-9793-3b77b45ab960)
+[17Sep2025 23:34:39.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to Uki]
+[17Sep2025 23:35:16.685] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr lost connection: You logged in from another location
+[17Sep2025 23:35:16.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr left the game
+[17Sep2025 23:35:16.700] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: NeroMr[/127.189.254.54:60443] logged in with entity id 64636 at (286.31226408232345, 57.24888032045456, -279.51107271857114)
+[17Sep2025 23:35:16.703] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player NeroMr
+[17Sep2025 23:35:16.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr joined the game
+[17Sep2025 23:35:16.740] [Server thread/INFO] [Jade/]: Syncing config to NeroMr (c9db194a-9bc9-3309-9793-3b77b45ab960)
+[17Sep2025 23:35:45.395] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14372ms or 287 ticks behind
+[17Sep2025 23:35:45.407] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -0.02104227117024493,10.1500009801116,0.10926230281654625
+[17Sep2025 23:37:46.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr was doomed to fall by Tanjiro Kamado
+[17Sep2025 23:37:49.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to 189.500000, 85.500000, -319.500000]
+[17Sep2025 23:38:18.004] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved wrongly!
+[17Sep2025 23:40:15.940] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 9.153984920182381,-0.26650712554658185,-4.075745062914734
+[17Sep2025 23:40:19.792] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 9.103732784304043,-0.48357493160086307,-5.361391446044365
+[17Sep2025 23:40:30.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 23:40:34.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to 237.500000, 56.500000, -314.500000]
+[17Sep2025 23:41:03.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki died
+[17Sep2025 23:41:06.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Uki: Teleported Uki to 22.500000, 119.500000, -204.500000]
+[17Sep2025 23:41:16.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 23:41:20.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to 208.500000, 63.500000, -299.500000]
+[17Sep2025 23:41:31.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki died
+[17Sep2025 23:41:34.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Uki: Teleported Uki to 19.500000, 119.500000, -208.500000]
+[17Sep2025 23:41:40.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [Hashira Training Arc -Love-]
+[17Sep2025 23:42:21.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to Uki]
+[17Sep2025 23:42:57.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [Bloody Battle -Lower 6-]

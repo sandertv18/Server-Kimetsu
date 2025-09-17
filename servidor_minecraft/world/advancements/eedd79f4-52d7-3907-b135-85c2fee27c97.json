@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "kimetsunoyaiba:hashira_training_arc_love": {
+    "criteria": {
+      "hashira_training_arc_love_0": "2025-09-17 23:41:40 +0000"
+    },
+    "done": true
+  },
   "kimetsunoyaiba:strongest": {
     "criteria": {
       "strongest_0": "2025-09-17 23:25:08 +0000"
@@ -39,6 +45,7 @@
     "criteria": {
       "chicken": "2025-09-17 22:18:10 +0000",
       "porkchop": "2025-09-17 22:05:32 +0000",
+      "tropical_fish": "2025-09-17 23:35:48 +0000",
       "mutton": "2025-09-17 22:19:48 +0000"
     },
     "done": false
@@ -178,6 +185,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:wooded_badlands": "2025-09-17 23:13:30 +0000",
+      "minecraft:badlands": "2025-09-17 23:36:40 +0000",
       "minecraft:river": "2025-09-17 22:17:17 +0000",
       "minecraft:forest": "2025-09-17 22:00:31 +0000",
       "minecraft:desert": "2025-09-17 23:21:16 +0000",

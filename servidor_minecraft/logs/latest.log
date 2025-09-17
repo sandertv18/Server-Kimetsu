@@ -566,3 +566,16 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [17Sep2025 22:21:29.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Survival Mode]
 [17Sep2025 22:21:30.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Creative Mode]
 [17Sep2025 22:21:44.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Survival Mode]
+[17Sep2025 22:22:53.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Hinoto]
+[17Sep2025 22:24:19.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has made the advancement [Mission No.3]
+[17Sep2025 22:24:19.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has made the advancement [Demon Killer 10]
+[17Sep2025 22:24:19.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Hinoe]
+[17Sep2025 22:26:00.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 22:26:08.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to 64.500000, 77.500000, 19.500000]
+[17Sep2025 22:29:00.026] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr lost connection: Disconnected
+[17Sep2025 22:29:00.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr left the game
+[17Sep2025 22:29:00.077] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[17Sep2025 22:30:41.584] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: NeroMr[/127.189.254.54:56803] logged in with entity id 31842 at (132.45061485921462, 77.15487666386363, 0.024584826379613754)
+[17Sep2025 22:30:41.588] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player NeroMr
+[17Sep2025 22:30:41.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr joined the game
+[17Sep2025 22:30:41.629] [Server thread/INFO] [Jade/]: Syncing config to NeroMr (c9db194a-9bc9-3309-9793-3b77b45ab960)

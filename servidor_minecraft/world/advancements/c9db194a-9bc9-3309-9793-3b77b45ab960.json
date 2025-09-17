@@ -57,39 +57,9 @@
     },
     "done": true
   },
-  "kimetsunoyaiba:kill_12_moons": {
-    "criteria": {
-      "kill_12_moons_0": "2025-09-17 22:05:55 +0000"
-    },
-    "done": true
-  },
   "kimetsunoyaiba:mizunoe": {
     "criteria": {
       "mizunoe_0": "2025-09-17 21:07:53 +0000"
-    },
-    "done": true
-  },
-  "kimetsunoyaiba:kanoe": {
-    "criteria": {
-      "kanoe_0": "2025-09-17 21:10:30 +0000"
-    },
-    "done": true
-  },
-  "kimetsunoyaiba:tsuchinoto": {
-    "criteria": {
-      "tsuchinoto_0": "2025-09-17 21:48:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2025-09-17 21:23:55 +0000"
-    },
-    "done": true
-  },
-  "kimetsunoyaiba:tsuchinoe": {
-    "criteria": {
-      "tsuchinoe_0": "2025-09-17 22:05:55 +0000"
     },
     "done": true
   },
@@ -99,9 +69,63 @@
     },
     "done": true
   },
+  "kimetsunoyaiba:kanoe": {
+    "criteria": {
+      "kanoe_0": "2025-09-17 21:10:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-09-17 21:23:55 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:tsuchinoto": {
+    "criteria": {
+      "tsuchinoto_0": "2025-09-17 21:48:50 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:kill_12_moons": {
+    "criteria": {
+      "kill_12_moons_0": "2025-09-17 22:05:55 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:tsuchinoe": {
+    "criteria": {
+      "tsuchinoe_0": "2025-09-17 22:05:55 +0000"
+    },
+    "done": true
+  },
   "kimetsunoyaiba:mission_no_2": {
     "criteria": {
       "mission_no_2_0": "2025-09-17 22:21:09 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:hinoto": {
+    "criteria": {
+      "hinoto_0": "2025-09-17 22:22:53 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:demon_kill_count_10": {
+    "criteria": {
+      "demon_kill_count_10_0": "2025-09-17 22:24:19 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:hinoe": {
+    "criteria": {
+      "hinoe_0": "2025-09-17 22:24:19 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:mission_no_3": {
+    "criteria": {
+      "mission_no_3_0": "2025-09-17 22:24:19 +0000"
     },
     "done": true
   },

@@ -756,3 +756,6 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [17Sep2025 20:08:33.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has made the advancement [Demon Slayer Corps]
 [17Sep2025 20:08:33.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Mizunoto]
 [17Sep2025 20:08:53.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 20:15:14.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 20:18:38.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Creative Mode]
+[17Sep2025 20:19:21.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Survival Mode]

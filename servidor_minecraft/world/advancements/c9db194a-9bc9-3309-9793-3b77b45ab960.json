@@ -1,0 +1,53 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-09-17 20:15:02 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:demon_slayer": {
+    "criteria": {
+      "demon_slayer_0": "2025-09-17 20:06:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-09-17 20:08:33 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:demon_slayer_corps": {
+    "criteria": {
+      "demon_slayer_corps_0": "2025-09-17 20:08:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2025-09-17 20:12:00 +0000",
+      "minecraft:desert": "2025-09-17 20:07:58 +0000",
+      "minecraft:jungle": "2025-09-17 20:11:24 +0000"
+    },
+    "done": false
+  },
+  "kimetsunoyaiba:mizunoto": {
+    "criteria": {
+      "mizunoto_0": "2025-09-17 20:08:33 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:mission_no_1": {
+    "criteria": {
+      "mission_no_1_0": "2025-09-17 20:06:44 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:cruel": {
+    "criteria": {
+      "cruel_0": "2025-09-17 20:06:43 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

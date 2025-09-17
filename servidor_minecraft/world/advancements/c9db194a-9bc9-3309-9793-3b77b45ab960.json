@@ -129,5 +129,23 @@
     },
     "done": true
   },
+  "kimetsunoyaiba:kinoto": {
+    "criteria": {
+      "kinoto_0": "2025-09-17 22:44:10 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:bloody_battle_lower_2": {
+    "criteria": {
+      "bloody_battle_lower_2_0": "2025-09-17 22:46:07 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:kinoe": {
+    "criteria": {
+      "kinoe_0": "2025-09-17 22:46:07 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

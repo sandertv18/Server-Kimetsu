@@ -579,3 +579,20 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [17Sep2025 22:30:41.588] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player NeroMr
 [17Sep2025 22:30:41.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr joined the game
 [17Sep2025 22:30:41.629] [Server thread/INFO] [Jade/]: Syncing config to NeroMr (c9db194a-9bc9-3309-9793-3b77b45ab960)
+[17Sep2025 22:44:10.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Kinoto]
+[17Sep2025 22:44:19.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [Tsuchinoe]
+[17Sep2025 22:45:10.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 22:45:14.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to 227.500000, 72.500000, 71.500000]
+[17Sep2025 22:45:17.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki died
+[17Sep2025 22:45:22.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported Uki to NeroMr]
+[17Sep2025 22:45:33.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported Uki to NeroMr]
+[17Sep2025 22:45:42.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 22:45:47.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to 226.500000, 74.500000, 84.500000]
+[17Sep2025 22:46:07.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Bloody Battle -Lower 2-]
+[17Sep2025 22:46:07.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Kinoe]
+[17Sep2025 22:46:07.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [Kill 12 Moons]
+[17Sep2025 22:46:07.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [Hinoto]
+[17Sep2025 22:47:50.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has made the advancement [Monster Hunter]
+[17Sep2025 22:48:22.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [Hinoe]
+[17Sep2025 22:49:57.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 22:50:02.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to 118.500000, 71.500000, 55.500000]

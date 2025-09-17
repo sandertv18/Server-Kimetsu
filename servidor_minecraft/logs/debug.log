@@ -5159,3 +5159,26 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [17Sep2025 22:50:02.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to 118.500000, 71.500000, 55.500000]
 [17Sep2025 22:52:04.001] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [17Sep2025 22:52:04.009] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[17Sep2025 22:53:45.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki died
+[17Sep2025 22:53:49.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported Uki to NeroMr]
+[17Sep2025 22:56:18.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Bloody Battle -Lower 6-]
+[17Sep2025 22:56:18.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [Kinoto]
+[17Sep2025 22:56:18.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [Kinoe]
+[17Sep2025 22:56:18.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has completed the challenge [Strongest]
+[17Sep2025 22:56:18.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has completed the challenge [Hashira]
+[17Sep2025 22:57:03.996] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[17Sep2025 22:57:04.002] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[17Sep2025 22:58:46.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has made the advancement [Mission No.2]
+[17Sep2025 22:59:30.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has made the advancement [Receive 40 Damage]
+[17Sep2025 22:59:33.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has made the advancement [Receive 80 Damage]
+[17Sep2025 22:59:45.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 22:59:50.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -38.500000, 64.500000, 173.500000]
+[17Sep2025 23:00:38.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has made the advancement [Receive 160 Damage]
+[17Sep2025 23:00:44.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has made the advancement [Receive 240 Damage]
+[17Sep2025 23:01:18.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Receive 320 Damage]
+[17Sep2025 23:01:18.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has completed the challenge [[Skill] Demon Slayer Mark]
+[17Sep2025 23:01:26.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Hashira Training Arc -Insect-]
+[17Sep2025 23:02:04.006] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[17Sep2025 23:02:04.014] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[17Sep2025 23:02:05.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki died
+[17Sep2025 23:02:10.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported Uki to NeroMr]

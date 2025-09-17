@@ -67,6 +67,12 @@
     },
     "done": true
   },
+  "kimetsunoyaiba:kinoto": {
+    "criteria": {
+      "kinoto_0": "2025-09-17 22:56:18 +0000"
+    },
+    "done": true
+  },
   "kimetsunoyaiba:tsuchinoto": {
     "criteria": {
       "tsuchinoto_0": "2025-09-17 22:09:32 +0000"
@@ -114,9 +120,21 @@
     },
     "done": true
   },
+  "kimetsunoyaiba:mission_no_2": {
+    "criteria": {
+      "mission_no_2_0": "2025-09-17 22:58:46 +0000"
+    },
+    "done": true
+  },
   "kimetsunoyaiba:mission_no_1": {
     "criteria": {
       "mission_no_1_0": "2025-09-17 21:37:21 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:kinoe": {
+    "criteria": {
+      "kinoe_0": "2025-09-17 22:56:18 +0000"
     },
     "done": true
   },

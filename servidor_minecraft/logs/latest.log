@@ -520,3 +520,15 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [17Sep2025 21:37:20.465] [Server thread/INFO] [Jade/]: Syncing config to Uki (eedd79f4-52d7-3907-b135-85c2fee27c97)
 [17Sep2025 21:37:21.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has made the advancement [Mission No.1]
 [17Sep2025 21:40:12.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to Uki]
+[17Sep2025 21:42:53.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has made the advancement [Best Friends Forever]
+[17Sep2025 21:42:53.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has made the advancement [Demon Slayer Corps]
+[17Sep2025 21:42:53.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [Mizunoto]
+[17Sep2025 21:47:09.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [Mizunoe]
+[17Sep2025 21:48:16.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 21:48:50.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has reached the goal [Tsuchinoto]
+[17Sep2025 21:48:59.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 21:49:19.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 21:49:47.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki died
+[17Sep2025 21:50:27.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 21:50:42.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [Kanoto]
+[17Sep2025 21:50:43.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died

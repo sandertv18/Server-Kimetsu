@@ -106,7 +106,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:creeper": "2025-09-17 22:47:50 +0000"
+      "minecraft:creeper": "2025-09-17 22:47:50 +0000",
+      "minecraft:husk": "2025-09-17 23:45:21 +0000"
     },
     "done": false
   },
@@ -158,9 +159,21 @@
     },
     "done": true
   },
+  "kimetsunoyaiba:demon_kill_count_20": {
+    "criteria": {
+      "demon_kill_count_20_0": "2025-09-17 23:47:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "minecraft:creeper": "2025-09-17 22:47:50 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:bloody_battle_lower_6": {
+    "criteria": {
+      "bloody_battle_lower_6_0": "2025-09-17 23:42:57 +0000"
     },
     "done": true
   },

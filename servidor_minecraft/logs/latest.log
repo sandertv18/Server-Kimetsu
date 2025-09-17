@@ -713,3 +713,20 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [17Sep2025 23:41:40.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [Hashira Training Arc -Love-]
 [17Sep2025 23:42:21.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to Uki]
 [17Sep2025 23:42:57.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has reached the goal [Bloody Battle -Lower 6-]
+[17Sep2025 23:44:03.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Spectator Mode]
+[17Sep2025 23:45:39.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -1372.500000, 75.500000, -393.500000]
+[17Sep2025 23:47:43.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki has made the advancement [Demon Killer 20]
+[17Sep2025 23:47:58.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Survival Mode]
+[17Sep2025 23:48:11.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to Uki]
+[17Sep2025 23:49:24.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki died
+[17Sep2025 23:49:28.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Uki: Teleported Uki to -156.500000, 63.500000, 231.500000]
+[17Sep2025 23:49:58.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 23:50:02.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -224.500000, 63.500000, 227.500000]
+[17Sep2025 23:50:18.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki died
+[17Sep2025 23:50:21.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr has made the advancement [Monster Hunter]
+[17Sep2025 23:50:28.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Uki: Teleported Uki to -104.500000, 64.500000, 238.500000]
+[17Sep2025 23:51:50.546] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -1.3773539913816535,-0.16610926093821377,-9.919220683169954
+[17Sep2025 23:51:57.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NeroMr died
+[17Sep2025 23:52:02.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -135.500000, 64.500000, 269.500000]
+[17Sep2025 23:52:11.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Creative Mode]
+[17Sep2025 23:53:14.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Survival Mode]

@@ -159,9 +159,21 @@
     },
     "done": true
   },
+  "kimetsunoyaiba:breathing_40": {
+    "criteria": {
+      "breathing_40_0": "2025-09-17 23:11:21 +0000"
+    },
+    "done": true
+  },
   "kimetsunoyaiba:receive_60_damage": {
     "criteria": {
       "receive_60_damage_0": "2025-09-17 23:00:38 +0000"
+    },
+    "done": true
+  },
+  "kimetsunoyaiba:breathing_20": {
+    "criteria": {
+      "breathing_20_0": "2025-09-17 23:07:50 +0000"
     },
     "done": true
   },

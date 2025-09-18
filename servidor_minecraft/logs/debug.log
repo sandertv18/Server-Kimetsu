@@ -5863,3 +5863,76 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [17Sep2025 23:52:32.502] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [17Sep2025 23:52:32.508] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [17Sep2025 23:53:14.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Survival Mode]
+[17Sep2025 23:53:51.978] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Uki lost connection: Disconnected
+[17Sep2025 23:53:51.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Uki left the game
+[17Sep2025 23:54:58.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -1379.500000, 69.500000, -2323.500000]
+[17Sep2025 23:57:32.485] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[17Sep2025 23:57:32.492] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[17Sep2025 23:57:55.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Spectator Mode]
+[17Sep2025 23:58:03.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -1489.500000, 63.500000, -2899.500000]
+[17Sep2025 23:58:51.836] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 2.1246775679871917,0.0,-10.569866342299974
+[17Sep2025 23:58:53.558] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 2.0607671966961334,0.5534643720780679,-9.950684385107252
+[17Sep2025 23:58:59.995] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 1.6021839728432496,0.0,-10.541960918249515
+[17Sep2025 23:59:04.590] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 1.533319820219731,0.0,-10.19533461462197
+[17Sep2025 23:59:33.185] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 0.3705340589158368,0.0,-10.882586474558593
+[17Sep2025 23:59:48.389] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 0.3705340589158368,0.0,-10.88258647453722
+[18Sep2025 00:00:01.994] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 0.3705340589096977,0.0,-10.882586474376694
+[18Sep2025 00:00:12.798] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 0.37053405757728797,0.0,-10.882586435241137
+[18Sep2025 00:00:14.667] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 0.3457932670773971,0.0,-10.1559493405166
+[18Sep2025 00:00:17.019] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 0.36278516542211037,0.0,-10.655001448282746
+[18Sep2025 00:00:23.780] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 0.37053152738985773,0.0,-10.882512123631386
+[18Sep2025 00:01:01.302] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14279ms or 285 ticks behind
+[18Sep2025 00:01:17.565] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 10.880481255945142,0.0,0.42684353743243264
+[18Sep2025 00:01:25.840] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 10.888865310198526,0.0,0.0
+[18Sep2025 00:01:28.510] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 10.616662582261824,0.0,0.0
+[18Sep2025 00:01:40.157] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 10.888892428185045,0.0,0.0
+[18Sep2025 00:02:46.725] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[18Sep2025 00:02:46.730] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[18Sep2025 00:03:03.291] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 10.658831706714324,0.0,1.1225615342355013
+[18Sep2025 00:03:04.694] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 4.124114528029111,0.0,9.194227171746206
+[18Sep2025 00:03:56.347] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -0.0050736190539169,0.0,10.888746404675658
+[18Sep2025 00:04:25.992] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -0.0050736190539169,0.0,10.888746404675658
+[18Sep2025 00:04:48.129] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -0.0050736190539169,0.0,10.888746404675658
+[18Sep2025 00:05:54.996] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -10.778659089048375,0.0,1.1272317220673358
+[18Sep2025 00:06:24.244] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 1.5573796467880356,3.199020606171473,9.669577024179375
+[18Sep2025 00:06:39.716] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -10.679883609365334,0.0,-2.122662721271695
+[18Sep2025 00:07:46.732] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[18Sep2025 00:07:46.739] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[18Sep2025 00:08:07.556] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -1.1828896969352627,0.0,-10.80750222582492
+[18Sep2025 00:08:39.518] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 3.31771943524825,0.0,-10.360209025035147
+[18Sep2025 00:09:07.390] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -1.477541232400199,0.0,-10.788155687962444
+[18Sep2025 00:10:00.514] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -10.573665374434313,0.0,0.6120523115419019
+[18Sep2025 00:10:13.054] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 0.4588022744144382,0.0,10.878506482396006
+[18Sep2025 00:10:21.642] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 1.2507467490599993,0.0,10.816686518610823
+[18Sep2025 00:10:37.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -893.500000, 63.500000, -2217.500000]
+[18Sep2025 00:10:56.439] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -5.019581551815577,0.0,9.444160785600161
+[18Sep2025 00:11:00.908] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -6.373961681650599,0.0,8.822002280296147
+[18Sep2025 00:11:08.195] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -1.020099559678897,0.0,10.757888158941569
+[18Sep2025 00:11:21.252] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -2.266204656224204,0.0,10.64846977012121
+[18Sep2025 00:11:35.657] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 2.8589320088118484,3.1745408595849085,9.2625992656574
+[18Sep2025 00:11:40.564] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 4.232458057088593,0.0,10.028486675627619
+[18Sep2025 00:11:56.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -593.500000, 102.500000, -1143.500000]
+[18Sep2025 00:12:27.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 0.6562525789702249,0.0,-10.869099011843446
+[18Sep2025 00:12:46.749] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[18Sep2025 00:12:46.754] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[18Sep2025 00:13:29.400] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -0.22756659409094482,0.0,-10.886514395433096
+[18Sep2025 00:14:28.796] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -0.020574924013772034,0.0,-10.886492328468194
+[18Sep2025 00:16:57.916] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 0.39974663183443226,0.0,10.881552572054716
+[18Sep2025 00:17:02.711] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 0.39854620994935885,0.0,10.87726249868274
+[18Sep2025 00:17:25.457] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 0.5846208849973209,0.0,10.87254865226123
+[18Sep2025 00:17:46.740] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[18Sep2025 00:17:46.746] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[18Sep2025 00:18:12.048] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 0.015314258379248713,0.0,10.887546350857065
+[18Sep2025 00:18:32.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -1365.500000, 63.500000, -1875.500000]
+[18Sep2025 00:18:42.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -1163.500000, 64.500000, -1517.500000]
+[18Sep2025 00:18:48.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -413.500000, 119.500000, -1029.500000]
+[18Sep2025 00:18:58.265] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 2.377358883134434,0.0,10.625716863914363
+[18Sep2025 00:19:08.454] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 2.4305662468061655,0.0,10.613922560909145
+[18Sep2025 00:19:31.071] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -10.884362556636688,0.0,0.02827692956032024
+[18Sep2025 00:20:16.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -101.500000, 63.500000, 344.500000]
+[18Sep2025 00:20:32.907] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -10.888856068590997,0.0,-0.002536817969485128
+[18Sep2025 00:20:36.399] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -10.847573931986744,0.0,-0.002536817969485128
+[18Sep2025 00:20:59.309] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -10.88885609050294,0.0,-0.002536817969485128
+[18Sep2025 00:21:02.858] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -10.857747050338276,0.0,-0.002536817969485128
+[18Sep2025 00:22:46.734] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[18Sep2025 00:22:46.741] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

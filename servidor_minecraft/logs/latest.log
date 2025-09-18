@@ -48,3 +48,10 @@
 [18Sep2025 00:20:36.399] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -10.847573931986744,0.0,-0.002536817969485128
 [18Sep2025 00:20:59.309] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -10.88885609050294,0.0,-0.002536817969485128
 [18Sep2025 00:21:02.858] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! -10.857747050338276,0.0,-0.002536817969485128
+[18Sep2025 00:25:58.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Creative Mode]
+[18Sep2025 00:26:20.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Set own game mode to Spectator Mode]
+[18Sep2025 00:30:20.772] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14399ms or 287 ticks behind
+[18Sep2025 00:30:33.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -9999.500000, 140.000000, 500.500000]
+[18Sep2025 00:31:04.545] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14423ms or 288 ticks behind
+[18Sep2025 00:31:04.550] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NeroMr moved too quickly! 6.591156216261879,0.0,-7.866894661908304
+[18Sep2025 00:31:39.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NeroMr: Teleported NeroMr to -19999.500000, 140.000000, 500.500000]
